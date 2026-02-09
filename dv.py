@@ -15,8 +15,8 @@ st.title("📊 BAJAJFINSV Stock Dashboard")
 # -----------------------------
 # Load Dataset
 # -----------------------------
-df = pd.read_csv(r"C:\Users\vgane\Downloads\BAJAJFINSV.csv")  # Update path if needed
-
+url="https://raw.githubusercontent.com/gopalakshay23-ux/Data-visualization/refs/heads/main/BAJAJFINSV.csv" # Update path if needed
+df = pd.read_csv(url)
 # -----------------------------
 # Data Cleaning / Feature Engineering
 # -----------------------------
